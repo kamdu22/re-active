@@ -1,0 +1,28 @@
+@import 'variables/variables';
+@import 'variables/colors';
+
+mark{
+  background-color: $markBackgroundColor;
+}
+
+abbr{
+  text-decoration: underline dotted;
+
+  .init{
+    font-size: 80%;
+    font-variant: small-caps; 
+  }
+}
+
+footer .blockquote-footer{
+  color: $blockquoteFooterColor;
+  &:before{
+    content: "—";
+  }
+}
+
+kbd{
+  background-color: $kbdBackgroundColor;
+  border-radius: 12px;
+  padding: 2px;
+}

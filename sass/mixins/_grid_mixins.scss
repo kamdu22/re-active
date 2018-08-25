@@ -1,0 +1,142 @@
+@mixin xs($num) {
+  @media screen and (min-width: 390px) {
+    @if $num==1 {
+      width: 25%;
+    }
+    @if $num==2 {
+      width: 50%;
+    }
+    @if $num==3 {
+      width: 75%;
+    }
+    @if $num==4 {
+      width: 100%;
+    }
+  }
+}
+
+@mixin s($num) {
+  @media screen and (min-width: 520px) {
+    @if $num==1 {
+      width: 16.66%;
+    }
+    @if $num==2 {
+      width: 33.33%;
+    }
+    @if $num==3 {
+      width: 50%
+    }
+    @if $num==4 {
+      width: 66.66%;
+    }
+    @if $num==5 {
+      width: 83.33%;
+    }
+    @if $num==6 {
+      width: 100%;
+    }
+  }
+}
+
+@mixin m($num) {
+  @media screen and (min-width: 728px) {
+    @if $num==1 {
+      width: 12.5%;
+    }
+    @if $num==2 {
+      width: 25%;
+    }
+    @if $num==3 {
+      width: 37.5%;
+    }
+    @if $num==4 {
+      width: 50%;
+    }
+    @if $num==5 {
+      width: 62.5%;
+    }
+    @if $num==6 {
+      width: 75%;
+    }
+    @if $num==7 {
+      widows: 87.5%;
+    }
+    @if $num==8 {
+      width: 100%;
+    }
+  }
+}
+
+@mixin l($num) {
+  @media screen and (min-width: 991px) {
+    @if $num==1 {
+      width: 10%;
+    }
+    @if $num==2 {
+      width: 20%;
+    }
+    @if $num==3 {
+      width: 30%;
+    }
+    @if $num==4 {
+      width: 40%;
+    }
+    @if $num==5 {
+      width: 50%;
+    }
+    @if $num==6 {
+      width: 60%;
+    }
+    @if $num==7 {
+      width: 70%;
+    }
+    @if $num==8 {
+      width: 80%;
+    }
+    @if $num==9 {
+      width: 90%;
+    }
+    @if $num==10 {
+      width: 100%;
+    }
+  }
+}
+
+@mixin xl($num) {
+  @if $num==1 {
+    width: 8.33%;
+  }
+  @if $num==2 {
+    width: 16.66%;
+  }
+  @if $num==3 {
+    width: 25%;
+  }
+  @if $num==4 {
+    width: 33.33%;
+  }
+  @if $num==5 {
+    width: 41.66%;
+  }
+  @if $num==6 {
+    width: 50%;
+  }
+  @if $num==7 {
+    width: 58.33%;
+  }
+  @if $num==8 {
+    width: 66.66%;
+  }
+  @if $num==9 {
+    width: 75%;
+  }
+  @if $num==10 {
+    width: 83.33%;
+  }
+  @if $num==11 {
+    width: 91.66%;
+  }
+  @if $num==12 {
+    width: 100%;
+  }
+}

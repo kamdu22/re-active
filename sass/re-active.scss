@@ -1,0 +1,69 @@
+/* REactive Framework 1.0 by kamdu22 */
+
+/* MIT License */
+
+/* normalize.css */
+
+/* TODO: add normalize.css code */
+
+@import 'variables/variables';
+
+/* colors */
+
+@import 'variables/colors';
+
+/* basics */
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden;
+  @include basicFont();
+  color: $basicBlack;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgb(204, 204, 204);
+  margin: 20px 0;
+}
+
+a {
+  color: inherit !important;
+}
+
+/* fonts and headers */
+
+@import 'fontsAndHeaders';
+
+/* typography */
+
+@import 'typography';
+
+/* grid */
+
+@import 'grid';
+
+/* alerts */
+
+@import 'alerts';
+
+/* bagdes */
+
+@import 'badges';
+
+/* buttons */
+
+@import 'buttons';
+
+/* material icons by Google */
+/* https://github.com/google/material-design-icons */
+
+@import 'material_icons_by_Google';

@@ -1,0 +1,15 @@
+@import 'variables/variables';
+
+@mixin fontSettings($size, $height) {
+  font-size: $size;
+  line-height: $height;
+}
+
+@mixin basicFont() {
+  font-family: $roboto;
+  @include fontSettings(1em, 1.25em);
+
+  @media screen and (min-width: $min-wdth) {
+    @include fontSettings(1em, 1.725em);
+  }
+}
