@@ -1,3 +1,91 @@
 @import 'variables/variables';
 @import 'variables/colors';
 
+.btn{
+  padding: 10px;
+  border-radius: 8px;
+
+  .primary{
+    background-color: $primaryColor;
+    color: white;
+  }
+
+  .secondary{
+    background-color: $secondaryColor;
+    color: white;
+  }
+
+  .success{
+    background-color: $successColor;
+    color: white;
+  }
+
+  .danger{
+    background-color: $dangerColor;
+    color: $basicBlack;
+  }
+
+  .warning{
+    background-color: $warningColor;
+    color: white;
+  }
+
+  .light{
+    background-color: $lightColor;
+    color: white;
+  }
+
+  .dark{
+    background-color: $darkColor;
+    color: white;
+  }
+
+  .info{
+    background-color: $infoColor;
+    color: white;
+  }
+
+  .link{
+    background-color: white;
+    color: $primaryColor;
+  }
+
+  &:hover{
+    .primary{
+      background-color: $primaryDarkColor;
+    }
+
+    .secondary{
+      background-color: $secondaryDarkColor;
+    }
+
+    .success{
+      background-color: $successDarkColor;
+    }
+
+    .danger{
+      background-color: $dangerDarkColor;
+    }
+
+    .warning{
+      background-color: $warningDarkColor;
+      color: white;
+    }
+
+    .light{
+      background-color: $lightDarkColor;
+    }
+
+    .dark{
+      background-color: $darkDarkColor;
+    }
+
+    .info{
+      background-color: $infoDarkColor;
+    }
+
+    .link{
+      text-decoration: underline solid;
+    }
+  }
+}

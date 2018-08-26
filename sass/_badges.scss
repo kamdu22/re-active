@@ -38,12 +38,12 @@
 
   .warning{
     background-color: $warningColor;
-    color: white;
+    color: $basicBlack;
   }
 
   .light{
     background-color: $lightColor;
-    color: $basicBlack;
+    color: white;
   }
 
   .dark{
@@ -78,6 +78,7 @@ a{
 
       .warning{
         background-color: $warningDarkColor;
+        color: white;
       }
 
       .light{

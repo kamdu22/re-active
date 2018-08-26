@@ -44,14 +44,13 @@
     font-style: italic;
   }
 
-  .cancelable{
-    .alert-content:after{
-      content: "🗙";
-    }
+  .cancel-button{
+    content: "🗙";
   }
 
   .alert-link{
-    font-family: $roboto_bold;
+    font-family: $roboto;
+    font-weight: bold;
     text-decoration: none;
 
     &:hover{
