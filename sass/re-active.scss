@@ -2,17 +2,16 @@
 
 /* MIT License */
 
+
+@import 'mixins/fontsAndHeaders_mixins';
+
 /* normalize.css */
 
 /* TODO: add normalize.css code */
 
 @import 'variables/variables';
 
-/* colors */
-
 @import 'variables/colors';
-
-/* basics */
 
 *,
 *:before,
@@ -39,31 +38,22 @@ a {
   color: inherit !important;
 }
 
-/* fonts and headers */
-
 @import 'fontsAndHeaders';
 
-/* typography */
 
 @import 'typography';
 
-/* grid */
 
 @import 'grid';
 
-/* alerts */
 
 @import 'alerts';
 
-/* bagdes */
 
 @import 'badges';
 
-/* buttons */
 
 @import 'buttons';
 
-/* material icons by Google */
-/* https://github.com/google/material-design-icons */
 
 @import 'material_icons_by_Google';
