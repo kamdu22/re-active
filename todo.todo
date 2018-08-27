@@ -5,6 +5,10 @@ Code:
     ☐ Create Button group classes @low 
   _cards.scss file:
     ☐ Create Card classes @high 
+  _dropdowns.scss file:
+    ☐ Create Dropdown button classes @low 
+    ☐ Create Standalone dropdown button classes @low 
+    ☐ Create Dropdown button classes for Button group @low 
 Site:
   ☐ Create Re-active Site @critical 
   ☐ Create color modification site @low 
