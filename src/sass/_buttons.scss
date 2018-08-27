@@ -4,6 +4,8 @@
 .btn{
   padding: 10px;
   border-radius: 8px;
+  background-color: $basicBlack;
+  color: white;
 
   .primary{
     background-color: $primaryColor;
@@ -88,4 +90,175 @@
       text-decoration: underline solid;
     }
   }
+
+  .outline{
+    border: 1px solid;
+
+    .primary{
+      border-color: $primaryColor;
+      color: $primaryColor;
+    }
+
+    .secondary{
+      border-color: $secondaryColor;
+      color: $secondaryColor;
+    }
+
+    .success{
+      border-color: $successColor;
+      color: $successColor;
+    }
+
+    .danger{
+      border-color: $dangerColor;
+      color: $dangerColor;
+    }
+
+    .warning{
+      border-color: $warningColor;
+      color: $warningColor;
+    }
+
+    .light{
+      border-color: $lightColor;
+      color: $lightColor;
+    }
+  }
+
+  &:hover{
+    .outline{
+      border: none;
+      transition-duration: 1s;
+
+      .primary{
+        background-color: $primaryColor;
+        color: white;
+      }
+    
+      .secondary{
+        background-color: $secondaryColor;
+        color: white;
+      }
+    
+      .success{
+        background-color: $successColor;
+        color: white;
+      }
+    
+      .danger{
+        background-color: $dangerColor;
+        color: $basicBlack;
+      }
+    
+      .warning{
+        background-color: $warningColor;
+        color: white;
+      }
+    
+      .light{
+        background-color: $lightColor;
+        color: white;
+      }
+    
+      .dark{
+        background-color: $darkColor;
+        color: white;
+      }
+    
+      .info{
+        background-color: $infoColor;
+        color: white;
+      }
+    
+      .link{
+        background-color: white;
+        color: $primaryColor;
+      }
+    }
+  }
+
+  .block{
+    display: block;
+    width: 100%;
+  }
 }
+
+button[disabled] .btn, .btn > .disabled{
+  color: white;
+
+  .primary{
+    background-color: $primaryDisabledColor;
+  }
+
+  .secondary{
+    background-color: $secondaryDisabledColor;
+  }
+
+  .success{
+    background-color: $successDisabledColor;
+  }
+
+  .danger{
+    background-color: $dangerDisabledColor;
+  }
+
+  .warning{
+    background-color: $wanringDisabledColor;
+  }
+
+  .light{
+    background-color: $lightDisabledColor;
+  }
+
+  .dark{
+    background-color: $darkDisabledColor;
+  }
+
+  .info{
+    background-color: $infoDisabledColor;
+  }
+
+  .outline{
+    .primary{
+      border-color: $primaryDisabledColor;
+      color: $primaryDisabledColor;
+    }
+
+    .secondary{
+      border-color: $secondaryDisabledColor;
+      color: $secondaryDisabledColor;
+    }
+
+    .success{
+      border-color: $successDisabledColor;
+      color: $successDisabledColor;
+    }
+
+    .danger{
+      border-color: $dangerDisabledColor;
+      color: $dangerDisabledColor;
+    }
+
+    .warning{
+      border-color: $wanringDisabledColor;
+      color: $wanringDisabledColor;
+    }
+
+    .light{
+      border-color: $lightDisabledColor;
+      color: $lightDisabledColor;
+    }
+
+    .dark{
+      border-color: $darkDisabledColor;
+      color: $darkDisabledColor;
+    }
+
+    .info{
+      border-color: $infoDisabledColor;
+      color: $infoDisabledColor;
+    }
+  }
+}
+
+/* TODO: Button group */

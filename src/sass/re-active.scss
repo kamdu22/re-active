@@ -10,7 +10,6 @@
 /* TODO: add normalize.css code */
 
 @import 'variables/variables';
-
 @import 'variables/colors';
 
 *,
@@ -39,21 +38,12 @@ a {
 }
 
 @import 'fontsAndHeaders';
-
-
 @import 'typography';
-
-
 @import 'grid';
-
-
 @import 'alerts';
-
-
 @import 'badges';
-
-
 @import 'buttons';
-
+@import 'cards';
+@import 'navigation';
 
 @import 'material_icons_by_Google';
