@@ -1,0 +1,12 @@
+Code:
+  Re-active base file:
+    ☐ Add normalize.css @high 
+  _buttons.scss file:
+    ☐ Create Button group classes @low 
+  _cards.scss file:
+    ☐ Create Card classes @high 
+Site:
+  ☐ Create Re-active Site @critical 
+  ☐ Create color modification site @low 
+Documentation:
+  ☐ Create documentation site @critical 
