@@ -1,12 +1,12 @@
 Code:
   Re-active base file:
-    ☐ Add normalize.css @high 
+    ☐ Add normalize.css @high [from line:10 TODO]
   _buttons.scss file:
-    ☐ Create Button group classes @low 
+    ☐ Create Button group classes @low [from line:264 TODO]
   _cards.scss file:
-    ☐ Create Card classes @high 
+    ☐ Create Card classes @high [from line:1 TODO]
   _dropdowns.scss file:
-    ☐ Create Dropdown button classes @low 
+    ☐ Create Dropdown button classes @low [from line:1 TODO]
     ☐ Create Standalone dropdown button classes @low 
     ☐ Create Dropdown button classes for Button group @low 
 Site:
