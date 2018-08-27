@@ -14,3 +14,15 @@ Site:
   ☐ Create color modification site @low 
 Documentation:
   ☐ Create documentation site @critical 
+    ☐ Add "Fonts and Headers" part
+    ☐ Add "Typography" part
+    ☐ Add "Grid" part
+      ☐ Add "Grid/Columns" part
+      ☐ Add "Grid/Flexbox" part
+    ☐ Add "Alerts" part
+    ☐ Add "Badges" part
+    ☐ Add "Buttons" part
+      ☐ Add "Buttons/Button group" part
+      ☐ Add "Buttons/Dropdowns" part
+    ☐ Add "Cards" part
+    ☐ Add "Navigation" part
