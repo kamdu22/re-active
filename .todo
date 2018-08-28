@@ -1,7 +1,20 @@
 Code:
   Re-active base file:
-    ☐ Add normalize.css @high [from line:10 TODO]
+    ✔ Add normalize.css @high [from line:10 TODO] @done (8/28/2018, 1:59:29 PM)
+  _fontsAndHeaders.scss file:
+    ✔ Create Font classes @done
+    ✔ Create Header classes @done
+  _typography.scss file:
+    ✔ Create Typography classes @done
+  _grid.scss file:
+    ✔ Create Grid Column classes @done
+    ✔ Create Grid Flexbox classes @done
+  _alerts.scss files:
+    ✔ Create Alert classes @done
+  _badges.scss file:
+    ✔ Create Badge classes @done
   _buttons.scss file:
+    ✔ Create Button classes @done
     ☐ Create Button group classes @low [from line:264 TODO]
   _cards.scss file:
     ☐ Create Card classes @high [from line:1 TODO]
@@ -9,6 +22,10 @@ Code:
     ☐ Create Dropdown button classes @low [from line:1 TODO]
     ☐ Create Standalone dropdown button classes @low 
     ☐ Create Dropdown button classes for Button group @low 
+  _navigation.scss file:
+    ✔ Create Navigation classes @done
+  _forms.scss file:
+    ☐ Create Forms classes @high 
 Site:
   ☐ Create Re-active Site @critical 
   ☐ Create color modification site @low 
@@ -26,3 +43,4 @@ Documentation:
       ☐ Add "Buttons/Dropdowns" part
     ☐ Add "Cards" part
     ☐ Add "Navigation" part
+    ☐ Add "Forms" part
