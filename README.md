@@ -7,16 +7,16 @@ src/
 |---css/
     |---normalize.css
 |---js/
-    |---elements.js
-    |---lit-html.js
+    |--elements.js
+    |--lit-html.js
 |---sass/
     |---mixins/
-        |-----_alerts_mixins.scss
-        |-----_fontsAndHeaders_mixins.scss
-        |-----_grid_mixins.scss
+        |------_alerts_mixins.scss
+        |------_fontsAndHeaders_mixins.scss
+        |------_grid_mixins.scss
     |---variables/
-        |--------_colors.scss
-        |--------_variables.scss
+        |---------_colors.scss
+        |---------_variables.scss
     |---_alerts.scss
     |---_badges.scss
     |---_buttons.scss
