@@ -1,4 +1,4 @@
-Code:
+Css code:
   Re-active base file:
     ✔ Add normalize.css @high [from line:10 TODO] @done (8/28/2018, 1:59:29 PM)
   _fontsAndHeaders.scss file:
@@ -26,6 +26,15 @@ Code:
     ✔ Create Navigation classes @done
   _forms.scss file:
     ☐ Create Forms classes @high 
+JavaScript code:
+  ✔ Add lit-html.js @done (8/28/2018, 7:15:17 PM)
+  Custom elements:
+    ☐ Create custom element for alert @high 
+    ☐ Create custom element for badge @low 
+    ☐ Create custom element for card @high 
+    ☐ Create custom element for dropdown @low 
+    ✔ Create custom element for grid @today @low @done (8/28/2018, 8:58:03 PM)
+    ☐ Create custom element for material icons by Google @low 
 Site:
   ☐ Create Re-active Site @critical 
   ☐ Create color modification site @low 
