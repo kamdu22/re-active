@@ -12,10 +12,10 @@ Whole project:
     ☐ Add "How to use" part @critical 
     ☐ Add Browser test results @high
   Other files/Uncreated files:
-    ☐ Create "Code of conduct" file @high 
+    ✔ Create "Code of conduct" file @high @done (18-08-30 01:18) @masterBranch
     ☐ Create "Contributing" file @high 
     ☐ Create templates for: @low 
-      ☐ Issues @high
+      ✔ Issues @high @done (18-08-30 01:20) @masterBranch
       ☐ Pull requests @low
 
 CSS code:
