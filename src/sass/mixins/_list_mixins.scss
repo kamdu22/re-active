@@ -1,0 +1,5 @@
+@mixin groupItemType($b, $c) {
+  background-color: $b !important;
+  color: $c !important;
+  border-color: $b !important;
+}

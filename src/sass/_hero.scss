@@ -1,0 +1,26 @@
+@import 'variables/variables';
+@import 'variables/colors';
+
+.hero{
+  padding: 4rem 2rem;
+  background-color: $basicGray;
+  color: $heroTextGray;
+
+  .full-width{
+    width: 100%;
+  }
+
+  h1{
+    .title{
+      color: $heroTextGray;
+    }
+  }
+
+  hr{
+    border-color: $heroDarkGray;
+  }
+
+  .btn{
+    font-size: 2em;
+  }
+}

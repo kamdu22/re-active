@@ -1,0 +1,93 @@
+@import 'variables/variables';
+@import 'variables/colors';
+@import 'mixins/list_mixins';
+
+ul{
+  .list-group{
+    li{
+      &:first-child{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+
+      border: 1px solid $basicDarkGray;
+      color: $basicBlack;
+      text-decoration: none;
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 10px;
+
+      &:last-child{
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+
+      .active{
+        background-color: $primaryColor;
+        color: white;
+      }
+
+      .disabled{
+        color: $basicDarkGray;
+      }
+
+      .li-btn:hover{
+        background-color: $listGroupButtonHoverGray;
+        border-color: $listGroupButtonHoverGray;
+      }
+      
+      .primary{
+        @include groupItemType($primaryBackgroundColor, $primaryTextBorderColor);
+      }
+
+      .secondary{
+        @include groupItemType($secondaryBackgroundColor, $secondaryTextBorderColor);
+      }
+
+      .success{
+        @include groupItemType($successBackgroundColor, $successTextBorderColor);
+      }
+
+      .danger{
+        @include groupItemType($dangerBackgroundColor, $dangerTextBorderColor);
+      }
+
+      .warning{
+        @include groupItemType($warninggBackgroundColor, $warningTextBorderColor);
+      }
+
+      .light{
+        @include groupItemType($lightBackgroundColor, $lightTextBorderColor);
+      }
+
+      .dark{
+        @include groupItemType($darkBackgroundColor, $darkTextBorderColor);
+      }
+
+      .badge{
+        float: left;
+      }
+    }
+  }
+
+  .list-group-light{
+    li{
+      border-bottom: 1px solid $basicDarkGray;
+      color: $basicBlack;
+      text-decoration: none;
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 10px;
+
+      &:last-child{
+        border: none;
+      }
+
+      .disabled{
+        color: $basicDarkGray;
+      }
+    }
+  }
+}
