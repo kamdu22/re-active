@@ -1,43 +1,120 @@
-Css code:
+Whole project:
+  ☐ Publish v1 @critical 
+  ☐ Create min version of: @critical 
+    ☐ Base CSS file
+    ☐ JS Elements file
+    ☐ JS Methods file
+  ☐ Test project on some web browsers @high 
+  ☐ Publish package on Yarn @critical 
+  ☐ Publish package on Bower @low 
+  README.md file:
+    ☐ Create complete file hierarchy @critical 
+    ☐ Add "How to use" part @critical 
+    ☐ Add Browser test results @high
+  Other files/Uncreated files:
+    ☐ Create "Code of conduct" file @high 
+    ☐ Create "Contributing" file @high 
+    ☐ Create templates for: @low 
+      ☐ Issues @high
+      ☐ Pull requests @low
+
+CSS code:
   Re-active base file:
-    ✔ Add normalize.css @high [from line:10 TODO] @done (8/28/2018, 1:59:29 PM)
-  _fontsAndHeaders.scss file:
-    ✔ Create Font classes @done
-    ✔ Create Header classes @done
-  _typography.scss file:
-    ✔ Create Typography classes @done
-  _grid.scss file:
-    ✔ Create Grid Column classes @done
-    ✔ Create Grid Flexbox classes @done
-  _alerts.scss files:
-    ✔ Create Alert classes @done
-  _badges.scss file:
-    ✔ Create Badge classes @done
-  _buttons.scss file:
-    ✔ Create Button classes @done
-    ☐ Create Button group classes @low [from line:264 TODO]
-  _cards.scss file:
-    ☐ Create Card classes @high [from line:1 TODO]
-  _dropdowns.scss file:
-    ☐ Create Dropdown button classes @low [from line:1 TODO]
-    ☐ Create Standalone dropdown button classes @low 
-    ☐ Create Dropdown button classes for Button group @low 
-  _navigation.scss file:
-    ✔ Create Navigation classes @done
-  _forms.scss file:
-    ☐ Create Forms classes @high 
+    ✔ Create basic restart @critical @done
+    ✔ Add normalize.css @high @done (8/28/2018, 1:59:29 PM)
+  Component classes:
+    _typography.scss file:
+      ✔ Create Typography classes @critical @done
+      #mergedWith(_typography.scss) _fontsAndHeaders.scss file:
+        ✔ Create Font classes @critical @done
+        ✔ Create Header classes @critical @done
+        ✔ Merge with _typography.scss file @critical @done (18-08-29 23:50)
+    _grid.scss file:
+      ✔ Create Grid Column classes @critical @done
+      ✔ Create Grid Flexbox classes @high  @done
+    _alerts.scss files:
+      ✔ Create Alert classes @critical @done
+      ✔ Create Cancel button for alert @done (18-08-29 23:39)
+    _badges.scss file:
+      ✔ Create Badge classes @critical @done
+    _buttons.scss file:
+      ✔ Create Button classes @critical @done
+      ✔ Create Button group classes @low @done (8/29/2018, 7:56:56 PM)
+      #mergedWith(_buttons.scss) _dropdowns.scss file:
+        ☐ Create Dropdown button classes @low
+        ☐ Create Standalone dropdown button classes @low 
+        ☐ Create Dropdown button classes for Button group @low
+        ✔ Merge with _buttons.scss file @critical @done (18-08-29 23:52)
+    _cards.scss file:
+      ☐ Create Card classes @high 
+    _navigation.scss file:
+      ✔ Create Navigation classes @critical @done
+        ✔ Dropdowns @high @done
+      ☐ Create Container-adapting tabs navigation classes @low
+    _forms.scss file:
+      ☐ Create Forms classes @high 
+    _hero.scss file:
+      ✔ Create Hero classes @high @today @done (8/29/2018, 10:08:20 PM)
+    _list.scss file:
+      ☐ Create List classes @high
+      ✔ Create List group classes @low @done (18-08-30 00:59)
+      ☐ Create Custom content list group classes @low 
+      ☐ Create Custom number styling in lists @low
+    Other (will be associated with files in future):
+      ☐ Create Modal classes @high
+      ☐ Create Pagination classes @low 
+      ☐ Create Progress classes @low
+      ☐ Create Media block classes @high
+  Utility classes (will be associated with files in future):
+    ☐ Create Border classes @high 
+      ☐ Additive @critical
+      ☐ Subtractive @low 
+    ☐ Create Border color classes @low 
+    ☐ Create Border radius classes @low
+    ☐ Create Close icon button class @low 
+    ☐ Create Color classes @critical 
+      ☐ For text @high 
+      ☐ For background @high 
+        ☐ Classic @critical 
+        ☐ Gradient @low
+      ☐ For links @low 
+    ☐ Create Display classes @low
+    ☐ Create Float classes @high 
+    ☐ Create Position classes @high 
+    ☐ Create Shadow classes @low 
+    ☐ Create Sizing classes @low 
+      ☐ Width @critical 
+        ☐ Standard @critical 
+        ☐ Max @low
+      ☐ Height @critical 
+        ☐ Standard @critical 
+        ☐ Max @low
+    ☐ Create Spacing classes @low 
+      ☐ Padding @critical  
+      ☐ Margin @critical  
+    ☐ Create Text classes @high 
+      ☐ Alignemnt @high 
+      ☐ Transform @low
+      ☐ Weight @critical 
+      ☐ Monospace and italic @low
+    ☐ Create Visibility classes @high
 JavaScript code:
   ✔ Add lit-html.js @done (8/28/2018, 7:15:17 PM)
+  ☐ Create scrolling methods @low
+  ☐ Create alert methods @critical 
   Custom elements:
     ✔ Create custom element for alert @high @done (8/29/2018, 7:13:14 PM)
     ☐ Create custom element for badge @low 
     ☐ Create custom element for card @high 
     ☐ Create custom element for dropdown @low 
     ✔ Create custom element for grid @today @high @done (8/28/2018, 8:58:03 PM)
+    ☐ Create custom element for button switch @high 
     ☐ Create custom element for material icons by Google @low 
+
 Site:
   ☐ Create Re-active Site @critical 
   ☐ Create color modification site @low 
+
 Documentation:
   ☐ Create documentation site @critical 
     ☐ Add "Fonts and Headers" part
@@ -53,3 +130,5 @@ Documentation:
     ☐ Add "Cards" part
     ☐ Add "Navigation" part
     ☐ Add "Forms" part
+    ☐ Add "List Group" part
+    //more...
