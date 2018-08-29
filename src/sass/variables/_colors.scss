@@ -1,6 +1,13 @@
 /* basic */
 
 $basicBlack:                hsl(0, 0%, 15%);
+$basicGray:                 hsl(0, 0%, 75%);
+$basicDarkGray:             hsl(0, 0%, 50%);
+
+/* hero */
+
+$heroDarkGray:              hsl(0, 0%, 50%);
+$heroTextGray:              hsl(0, 0%, 30%);
 
 /* typography */
 
@@ -16,7 +23,11 @@ $blockquoteBackgroundColor: hsl(0, 0%, 82%);
 
 $mutedTextColor:            hsl(0, 0%, 42%);
 
-/* alerts and badges */
+/* lists */
+
+$listGroupButtonHoverGray:  hsl(0, 0%, 65%);
+
+/* COLOR SCHEMES */
 
 $primaryColor:              hsl(217, 100%, 32%);
 $primaryDarkColor:          hsl(217, 100%, 10%);

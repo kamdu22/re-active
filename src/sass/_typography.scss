@@ -26,3 +26,128 @@ kbd{
   border-radius: 12px;
   padding: 2px;
 }
+
+@import 'mixins/fontsAndHeaders_mixins';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab:700&subset=cyrillic,greek,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+body {
+  @include basicFont();
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: $roboto_slab;
+  margin: 10px 0;
+}
+
+h1, .xlarge, .alert .alert-heading{
+  @include fontSettings(2em, 1.25em);
+
+  @media screen and (min-width: $min-wdth) {
+    @include fontSettings(2.5em, 1.125em);
+  }
+
+  @media screen and (min-width: $max-wdth) {
+    @include fontSettings(3em, 1.05em);
+  }
+}
+
+h2, .large{
+  @include fontSettings(1.625em, 1.15384615em);
+
+  @media screen and (min-width: $min-wdth){
+    @include fontSettings(2em, 1.25em);
+  }
+
+  @media screen and (min-width: $max-wdth) {
+    @include fontSettings(2.25em, 1.25em);
+  }
+}
+
+h3, .medium{
+  @include fontSettings(1.375em, 1.13636364em);
+
+  @media screen and (min-width: $min-wdth) {
+    @include fontSettings(1.5em, 1.25em);
+  }
+
+  @media screen and (min-width: $max-wdth) {
+    @include fontSettings(1.75em, 1.25em);
+  }
+}
+
+h4,h5,h6, .small{
+  @include fontSettings(1.125em, 1.11111111em);
+
+  @media screen and (min-width: $min-wdth) {
+    line-height: 1.22222222em;
+  }
+}
+
+blockquote{
+  @include fontSettings(1.25em, 1.25em);
+
+  padding: 10px;
+  background-color: $blockquoteBackgroundColor;
+
+  @media screen and (min-width: $min-wdth) {
+    @include fontSettings(1.5em, 1.45833333em);
+  }
+}
+
+.static-h1, h1 > .static-h{
+  font-size: 36px;
+
+   .text-muted, .text-subtitle{
+    font-family: $roboto;
+    color: $mutedTextColor;
+    font-size: 28px;
+  }
+}
+.static-h2, h2 > .static-h{
+  font-size: 28px;
+
+   .text-muted, .text-subtitle{
+    font-family: $roboto;
+    color: $mutedTextColor;
+    font-size: 24px;
+  }
+}
+.static-h3, h3 >.static-h{
+  font-size: 24px;
+
+   .text-muted, .text-subtitle{
+    font-family: $roboto;
+    color: $mutedTextColor;
+    font-size: 20px;
+  }
+}
+.static-h4, h4 > .static-h{
+  font-size: 20px;
+
+   .text-muted, .text-subtitle{
+    font-family: $roboto;
+    color: $mutedTextColor;
+    font-size: 18px;
+  }
+}
+.static-h5, h5 > .static-h{
+  font-size: 18px;
+
+   .text-muted, .text-subtitle{
+    font-family: $roboto;
+    color: $mutedTextColor;
+    font-size: 16px;
+  }
+}
+.static-h6, h6 > .static-h{
+  font-size: 16px;
+
+  .text-muted, .text-subtitle{
+    font-family: $roboto;
+    color: $mutedTextColor;
+    font-size: 14px;
+  }
+}
+

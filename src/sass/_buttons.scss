@@ -1,7 +1,7 @@
 @import 'variables/variables';
 @import 'variables/colors';
 
-.btn{
+.btn, [role="button"], button{
   padding: 10px;
   border-radius: 8px;
   background-color: $basicBlack;
@@ -261,4 +261,37 @@ button[disabled] .btn, .btn > .disabled{
   }
 }
 
-/* TODO: Button group */
+.btn-row{
+  display: block;
+
+  .btn{
+    display: inline-block;
+  }
+}
+
+/* TODO: Button group DONE!!! */
+
+.btn-group{
+  display: block;
+  margin: 0;
+
+  .btn:first-child{
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+
+  .btn{
+    border-radius: 0;
+    display: inline-block;
+  }
+
+  .btn:last-child{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+  }
+
+}

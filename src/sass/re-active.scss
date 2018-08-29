@@ -33,7 +33,6 @@ a {
   color: inherit !important;
 }
 
-@import 'fontsAndHeaders';
 @import 'typography';
 @import 'grid';
 @import 'alerts';
@@ -41,7 +40,9 @@ a {
 @import 'buttons';
 @import 'cards';
 @import 'navigation';
-@import 'dropdowns';
+@import 'forms';
+@import 'list';
+@import 'hero';
 
 @import 'material_icons_by_Google';
 
