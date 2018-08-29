@@ -163,3 +163,5 @@ class Alert extends HTMLElement
     }
   }
 }
+
+customElements.define("alert", Alert);
