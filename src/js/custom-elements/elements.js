@@ -1,5 +1,27 @@
 import { html, render } from "lit.html.js";
 
+/* Grid tag */
+class Grid extends HTMLElement
+{
+  constructor()
+  {
+    super();
+
+    render(this.template, this.root);
+  }
+
+  template()
+  {
+    return html`
+      <div class="grid"></div>
+    `;
+  }
+}
+
+customElements.define("grid", Grid);
+
+/* Col tag */
+var colClasses;
 class Col extends HTMLElement
 {
   constructor()
@@ -8,75 +30,39 @@ class Col extends HTMLElement
 
     this.root = this.attachShadow( { mode: "open" } );
 
-    if(colAuto != null)
+    if(this.colAuto != null && ((this.colAuto.includes("xs-") || this.colAuto.includes("s-") || this.colAuto.includes("m-") || this.colAuto.includes("l-") || this.colAuto.includes("xl-")) || (this.colAuto >= 1 && this.colAuto <= 12)))
     {
-      this.classList.add("auto-" + this.colAuto);
+      colClasses += "auto-" + this.colAuto + " ";
     }
-    else if(colN != null || colXS != null || colS != null || colM != null || colL != null || colXL != null)
+
+    if(this.colN != null && (this.colN >= 1 && this.colN <= 12))
     {
-      if(colN >= 1 && colN <= 12)
-      {
-        this.classList.add("n-" + colN);
-      }
-      else
-      {
-        console.log("wrong 'n' attribute");
-        this.style.display = "none";
-      }
-      
-      if(colXS >= 1 && colXS <= 12)
-      {
-        this.classList.add("xs-" + colN);
-      }
-      else
-      {
-        console.log("wrong 'xs' attribute");
-        this.style.display = "none";
-      }
-      
-      if(colS >= 1 && colS <= 12)
-      {
-        this.classList.add("s-" + colN);
-      }
-      else
-      {
-        console.log("wrong 's' attribute");
-        this.style.display = "none";
-      }
-      
-      if(colM >= 1 && colM <= 12)
-      {
-        this.classList.add("m-" + colN);
-      }
-      else
-      {
-        console.log("wrong 'm' attribute");
-        this.style.display = "none";
-      }
-      
-      if(colL >= 1 && colL <= 12)
-      {
-        this.classList.add("l-" + colN);
-      }
-      else
-      {
-        console.log("wrong 'l' attribute");
-        this.style.display = "none";
-      }
-      
-      if(colXL >= 1 && colXL <= 12)
-      {
-        this.classList.add("xl-" + colN);
-      }
-      else
-      {
-        console.log("wrong 'xl' attribute");
-        this.style.display = "none";
-      }
+      colClasses += "n-" + this.colN + " ";
     }
-    else
+
+    if(this.colXS != null && (this.colXS >= 1 && this.colXS <= 12))
     {
-      console.log("wrong attribute (probably 'auto')");
+      colClasses += "xs-" + this.colXS + " ";
+    }
+
+    if(this.colS != null && (this.colS >= 1 && this.colS <= 12))
+    {
+      colClasses += "s-" + this.colS + " ";
+    }
+
+    if(this.colM != null && (this.colM >= 1 && this.colM <= 12))
+    {
+      colClasses += "m-" + this.colM + " ";
+    }
+
+    if(this.colL != null && (this.colL >= 1 && this.colL <= 12))
+    {
+      colClasses += "l-" + this.colL + " ";
+    }
+
+    if(this.colXL != null && (this.colXL >= 1 && this.colXL <= 12))
+    {
+      colClasses += "xl-" + this.colXL + " ";
     }
 
     render(this.template, this.root);
@@ -120,9 +106,60 @@ class Col extends HTMLElement
   template()
   {
     return html`
-      <div class="col"></div>
+      <div class="col ${colClasses}"></div>
     `;
   }
 }
 
 customElements.define("col", Col);
+
+
+/* Alert tag */
+
+class Alert extends HTMLElement
+{
+  constructor()
+  {
+    super();
+
+    this.root = this.attachShadow( { mode: "open" } );
+
+    render(this.template, this.root);
+  }
+
+  get type()
+  {
+    return this.getAttribute("type");
+  }
+
+  get title()
+  {
+    return this.getAttribute("title");
+  }
+
+  get content()
+  {
+    return this.getAttribute("content");
+  }
+
+  get hasCanelButton()
+  {
+    return this.getAttribute("cancelable");
+  }
+
+  template()
+  {
+    if(this.hasCanelButton == "true")
+    {
+      return html`
+        <div class="alert ${this.type}"> <div class="alert-title">${this.title}</div> ${this.content} <div class="cancel-button"></div> </div>
+      `;
+    }
+    else if(this.hasCanelButton == "false" || this.hasCanelButton == null)
+    {
+      return html`
+        <div class="alert ${this.type}"> <div class="alert-title">${this.title}</div> ${this.content} </div>
+      `;
+    }
+  }
+}

@@ -40,15 +40,11 @@
 
   /* .alert-heading class is in _fontsAndHeaders.scss file */
 
-  .alert-content{
-    font-style: italic;
-  }
-
   .cancel-button{
     content: "🗙";
   }
 
-  .alert-link{
+  .link{
     font-family: $roboto;
     font-weight: bold;
     text-decoration: none;

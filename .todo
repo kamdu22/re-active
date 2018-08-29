@@ -29,11 +29,11 @@ Css code:
 JavaScript code:
   ✔ Add lit-html.js @done (8/28/2018, 7:15:17 PM)
   Custom elements:
-    ☐ Create custom element for alert @high 
+    ✔ Create custom element for alert @high @done (8/29/2018, 7:13:14 PM)
     ☐ Create custom element for badge @low 
     ☐ Create custom element for card @high 
     ☐ Create custom element for dropdown @low 
-    ✔ Create custom element for grid @today @low @done (8/28/2018, 8:58:03 PM)
+    ✔ Create custom element for grid @today @high @done (8/28/2018, 8:58:03 PM)
     ☐ Create custom element for material icons by Google @low 
 Site:
   ☐ Create Re-active Site @critical 
