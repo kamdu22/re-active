@@ -3,6 +3,9 @@
 
 ## InDev branch files
 ```
+dist/
+|----css/
+|----js/
 src/
 |---css/
     |---normalize.css
@@ -14,6 +17,7 @@ src/
         |------_alerts_mixins.scss
         |------_fontsAndHeaders_mixins.scss
         |------_grid_mixins.scss
+        |------_list_mixins.scss
     |---variables/
         |---------_colors.scss
         |---------_variables.scss
@@ -21,10 +25,10 @@ src/
     |---_badges.scss
     |---_buttons.scss
     |---_cards.scss
-    |---_dropdowns.scss
-    |---_fontsAndHeaders.scss
     |---_forms.scss
     |---_grid.scss
+    |---_hero.scss
+    |---_list.scss
     |---_material_icons_by_Google.scss
     |---_navigation.scss
     |---_typography.scss
