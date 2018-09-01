@@ -1,0 +1,8 @@
+@import 'variables/variables';
+@import 'variables/colors';
+
+@mixin border($where){
+  @if $where == 'full'{
+    border: 1px solid $basicBlack;
+  }
+}
