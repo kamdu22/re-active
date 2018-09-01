@@ -9,8 +9,8 @@
 @import 'variables/colors';
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -43,6 +43,8 @@ a {
 @import 'forms';
 @import 'list';
 @import 'hero';
+
+@import 'utility';
 
 @import 'material_icons_by_Google';
 
