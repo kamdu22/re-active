@@ -51,8 +51,11 @@ CSS code:
       ✔ Create Navigation classes @critical @done
         ✔ Dropdowns @high @done
       ☐ Create Container-adapting tabs navigation classes @low
+      ☐ Create Side navigation classes @high 
+      ☐ Create Fullscreen navigation classes @high
     _forms.scss file:
       ☐ Create Forms classes @high 
+      ☐ Create Custom select box classes @high
     _hero.scss file:
       ✔ Create Hero classes @high @today @done (8/29/2018, 10:08:20 PM)
     _list.scss file:
@@ -62,9 +65,15 @@ CSS code:
       ☐ Create Custom number styling in lists @low
     Other (will be associated with files in future):
       ☐ Create Modal classes @high
+        ☐ Create Lightbox classes @low 
       ☐ Create Pagination classes @low 
       ☐ Create Progress classes @low
       ☐ Create Media block classes @high
+      ☐ Create Toast notification classes @low 
+      ☐ Create Fullscreen search classes @low 
+      ☐ Create Breadcrumb classes @high 
+      ☐ Create Timeline classes @low 
+      ☐ Create Procing table classes @low 
   Utility classes (will be associated with files in future):
     ☐ Create Border classes @high 
       ☐ Additive @critical
@@ -98,6 +107,8 @@ CSS code:
       ☐ Weight @critical 
       ☐ Monospace and italic @low
     ☐ Create Visibility classes @high
+    ☐ Create Clearfix classes @high 
+
 JavaScript code:
   ✔ Add lit-html.js @done (8/28/2018, 7:15:17 PM)
   ☐ Create scrolling methods @low
@@ -110,6 +121,7 @@ JavaScript code:
     ✔ Create custom element for grid @today @high @done (8/28/2018, 8:58:03 PM)
     ☐ Create custom element for button switch @high 
     ☐ Create custom element for material icons by Google @low 
+    ☐ Create custom element for comparison table @low 
 
 Site:
   ☐ Create Re-active Site @critical 
