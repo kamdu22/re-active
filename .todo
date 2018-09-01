@@ -5,8 +5,9 @@ Whole project:
     ☐ JS Elements file
     ☐ JS Methods file
   ☐ Test project on some web browsers @high 
-  ☐ Publish package on Yarn @critical 
+  ☐ Publish package on npm @critical 
   ☐ Publish package on Bower @low 
+  ☐ Publish package on Yarn @high
   README.md file:
     ☐ Create complete file hierarchy @critical 
     ☐ Add "How to use" part @critical 
@@ -73,23 +74,24 @@ CSS code:
       ☐ Create Fullscreen search classes @low 
       ☐ Create Breadcrumb classes @high 
       ☐ Create Timeline classes @low 
-      ☐ Create Procing table classes @low 
-  Utility classes (will be associated with files in future):
-    ☐ Create Border classes @high 
-      ☐ Additive @critical
-      ☐ Subtractive @low 
-    ☐ Create Border color classes @low 
-    ☐ Create Border radius classes @low
+      ☐ Create Pricing table classes @low 
+  Utility classes (_utility.scss file):
+    ✔ Create Border classes @high @done (18-09-01 21:31)
+      ✔ Additive @critical @done (18-09-01 21:14)
+      ✔ Subtractive @low @done (18-09-01 21:15)
+      ✔ Create Border color classes @low @done (18-09-01 21:25)
+      ✔ Create Border radius classes @low @done (18-09-01 21:27)
+      ✔ Create Border style classes @high @done (18-09-01 21:31)
     ☐ Create Close icon button class @low 
     ☐ Create Color classes @critical 
-      ☐ For text @high 
+      ✔ For text @high @done (18-09-01 23:19)
       ☐ For background @high 
-        ☐ Classic @critical 
-        ☐ Gradient @low
-      ☐ For links @low 
-    ☐ Create Display classes @low
-    ☐ Create Float classes @high 
-    ☐ Create Position classes @high 
+        ✔ Classic @critical @done (18-09-01 23:22)
+        ✘ Gradient @low @cancelled (18-09-01 23:36)
+      ✔ For links @low @done (18-09-01 23:39)
+    ✔ Create Display classes @low @done (18-09-01 23:29)
+    ✔ Create Float classes @high @done (18-09-01 23:30)
+    ✔ Create Position classes @high @done (18-09-01 23:32)
     ☐ Create Shadow classes @low 
     ☐ Create Sizing classes @low 
       ☐ Width @critical 
@@ -106,8 +108,7 @@ CSS code:
       ☐ Transform @low
       ☐ Weight @critical 
       ☐ Monospace and italic @low
-    ☐ Create Visibility classes @high
-    ☐ Create Clearfix classes @high 
+    ✔ Create Clearfix classes @high @done (18-09-01 23:35)
 
 JavaScript code:
   ✔ Add lit-html.js @done (8/28/2018, 7:15:17 PM)
